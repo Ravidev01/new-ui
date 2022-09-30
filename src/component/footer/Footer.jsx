@@ -19,16 +19,21 @@ function Footer() {
       <hr style={{border: "1px solid white"}}></hr>
       <div className="footerdown">
         <h4>NEW UI</h4>
-        <ul style={{listStyleType: "none"}}>
+        {/* <ul style={{listStyleType: "none"}}>
             <li>About Us</li>
             <li>About Us</li>
             <li>About Us</li>
             <li>About Us</li>
             <li>About Us</li>
-        </ul>
+        </ul> */}
+        <p>About Us</p>
+        <p>About Us</p>
+        <p>About Us</p>
+        <p>About Us</p>
+        <p>About Us</p>
         <h6>Follow us on</h6>
       </div>
-      <p>© New Ui2022 . All Rights Reserved</p>
+      <p>© New2022 . All Rights Reserved</p>
     </div>
   );
 }
