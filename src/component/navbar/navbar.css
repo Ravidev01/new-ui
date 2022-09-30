@@ -1,0 +1,17 @@
+.navbar-expand-lg .navbar-collapse {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login{
+display: flex;
+justify-content: center;
+/* border-radius: ; */
+gap:18px
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  
+  }
