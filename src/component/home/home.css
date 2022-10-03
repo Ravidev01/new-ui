@@ -1,0 +1,72 @@
+.footer1 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  color: rgb(10, 10, 10);
+  background-color: #f7f7f7;
+  /* padding: 0 70px 0 70px; */
+}
+.fcard1 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: flex-start;
+  margin-top: 60px;
+}
+
+.img1 {
+  width: 300px;
+}
+.footertop1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 70px 50px 70px;
+}
+.homeimg {
+  display: flex;
+ 
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.homeimgrow{
+ width: 100px;
+}
+
+.hometab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nav-pills .nav-link.active {
+  color: rgb(30, 69, 245) !important;
+  background-color: rgb(228, 240, 240) !important;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #c1c1c1, -5px -5px 10px #ffffff;
+}
+.nav-pills .nav-link {
+  border-radius: 20px;
+  color: rgb(112, 109, 109);
+}
+.hometab ul {
+  background-color: rgb(228, 235, 235);
+  width: fit-content;
+  border-radius: 20px;
+}
+.tab-pane {
+  background-color: rgb(223, 239, 250);
+  padding: 20px 0 40px 0;
+}
+
+.tabimg {
+  width: 500px;
+}
+.tab-content {
+  padding-bottom: 50px;
+}
+/* .cardview{
+    display: flex;
+    justify-content: center;
+} */

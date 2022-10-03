@@ -4,9 +4,9 @@ import "../navbar/navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           NEWUI
         </a>
         <button
@@ -23,7 +23,7 @@ function Navbar() {
         <div className="collapse navbar-collapse " id="navbarText">
           <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/">
+              <a className="nav-link active" aria-current="page" href="/industries">
                 Features
               </a>
             </li>
