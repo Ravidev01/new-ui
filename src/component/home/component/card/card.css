@@ -6,8 +6,8 @@
 .carousel-control-prev-icon{
     color: brown !important;
 }
-.container{
-    background-color: #DFEFFA;
+.home >.container{
+    background-color: rgb(223, 239, 250,0.4);
     border-radius: 30px;
     margin-right: 10px;
     padding-bottom: 40px;
@@ -19,6 +19,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 40px;
+}
+.card-body{
+    text-align: start
 }
 
 

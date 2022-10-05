@@ -10,7 +10,7 @@ function Footer() {
         <div className="fcard">
         <h3>NewUI Is Very Easy To Use</h3>
         <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et</p>
-        <button>Get Your Free Trial Now</button>
+        <button className="btn btn-warning text-light bg-none">Get Your Free Trial Now</button>
         </div>
         <div>
             <img src={img} className="rounded mx-auto d-block"alt="img"></img>

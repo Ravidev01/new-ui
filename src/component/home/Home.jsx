@@ -97,7 +97,7 @@ function Home() {
             Keep your team productive without constant check-ins. Learn more
             about
           </p>
-          <img className="tabimg" src={img2} alt="hello"></img>
+          <img className="tabimg rounded-3 shadow-sm" src={img2} alt="hello"></img>
         </div>
         <div
           className="tab-pane fade"
@@ -111,7 +111,7 @@ function Home() {
             Keep your team productive without constant check-ins. Learn more
             about
           </p>
-          <img className="tabimg" src={img2} alt="hello"></img>
+          <img className="tabimg rounded-3 shadow-sm" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/d0bac985516221.5d7e861fd007a.jpg" alt="hello"></img>
         </div>
         <div
           className="tab-pane fade"
@@ -125,7 +125,7 @@ function Home() {
             Keep your team productive without constant check-ins. Learn more
             about
           </p>
-          <img className="tabimg" src={img2} alt="hello"></img>
+          <img className="tabimg rounded-3 shadow-sm" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/a7d8a885516221.5d7e861fd0c57.jpg" alt="hello"></img>
         </div>
       </div>
       <div className="cardview">

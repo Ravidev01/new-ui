@@ -1,4 +1,5 @@
 import React from "react";
+// import {Link} from 'react-router-dom'
 
 import "../navbar/navbar.css";
 
@@ -23,7 +24,7 @@ function Navbar() {
         <div className="collapse navbar-collapse " id="navbarText">
           <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/industries">
+              <a className="nav-link active" aria-current="page" href="/features">
                 Features
               </a>
             </li>
@@ -58,7 +59,7 @@ function Navbar() {
               Log in
               </a>
           
-            <button style={{borderRadius:"14px",fontSize:"14px",color:"white",backgroundColor:"orange"}}>Free Trial</button>
+            <button className="btn" style={{borderRadius:"14px",fontSize:"14px",color:"white",backgroundColor:"orange"}}>Free Trial</button>
       </div>
         </div>
       </div>

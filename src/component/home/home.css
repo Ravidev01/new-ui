@@ -56,7 +56,8 @@
   border-radius: 20px;
 }
 .tab-pane {
-  background-color: rgb(223, 239, 250);
+  background-color: rgb(223, 239, 250,0.4);
+  
   padding: 20px 0 40px 0;
 }
 
