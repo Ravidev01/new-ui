@@ -8,6 +8,7 @@ import Footer from '../footer/Footer'
 import Industries from '../industries/Industries'
 import Resources from '../resources/Resources'
 import Features from '../features/Features'
+import Pricing from '../pricing/Pricing'
 
 function Router() {
   return (
@@ -16,6 +17,7 @@ function Router() {
     <Routes>
         <Route exact path='/' element={<Home/>}/>
         <Route exact path='/features' element={<Features/>}/>
+        <Route exact path='/pricing' element={<Pricing/>}/>
         <Route exact path='/industries' element={<Industries/>}/>
         <Route exact path='/resources' element={<Resources/>}/>
     </Routes>

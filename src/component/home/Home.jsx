@@ -16,8 +16,15 @@ function Home() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
             doeiusmod tempor incididunt ut labore et
           </p>
-          <button>Get Your Free Trial Now</button>
-        </div>
+          <div>
+
+          <button className="btn btn-primary text-light rounded-4 me-3 mb-4 bg-none">
+            Get Now
+          </button>
+          <button style={{color:"blue"}} className="btn btn-light border-3 border-primary mb-4 rounded-4 bg-none">
+            Free Trial
+          </button>        </div>
+          </div>
         <div className="col-xs-12">
           <img
             src={img}
