@@ -3,7 +3,7 @@ import '../footer/footer.css'
 import img from '../../assets/images/img.png'
 
 
-function Footer() {
+export function Footer() {
   return (
     <div className="footer">
       <div className="footertop">
@@ -38,4 +38,40 @@ function Footer() {
   );
 }
 
-export default Footer;
+// export default Footer;
+
+export  function Footer1() {
+  return (
+    <div className="footer pt-5 pb-2">
+      <div className="footerdown">
+        <h4>NEW UI</h4>
+        {/* <ul style={{listStyleType: "none"}}>
+            <li>About Us</li>
+            <li>About Us</li>
+            <li>About Us</li>
+            <li>About Us</li>
+            <li>About Us</li>
+        </ul> */}
+        <p>About Us</p>
+        <p>About Us</p>
+        <p>About Us</p>
+        <p>About Us</p>
+        <p>About Us</p>
+        <div>
+
+        <h6>Follow us on</h6>
+        <div className="col">
+
+        <i class="bi p-1 bi-facebook"></i>
+        <i class="bi p-1  bi-youtube"></i>
+        <i class="bi p-1  bi-twitter"></i>
+        <i class="bi p-1 bi-instagram"></i>
+        </div>
+        </div>
+      </div>
+      <p>© New2022 . All Rights Reserved</p>
+    </div>
+  );
+}
+
+

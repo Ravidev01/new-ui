@@ -6,8 +6,8 @@ import "../features/features.css";
 function Features() {
   return (
     <div className="features " style={{overflowX: "hidden"}}>
-      <div className="mt-5 pt-5 d-flex justify-content-center row ">
-        <div className="text-view col-md-6 p-xs-4  ">
+      <div className="mt-5 pt-5 d-flex justify-content-center align-items-center row ">
+        <div className="text-view col-md-6 col-11 p-xs-4  ">
           <h3>NewUI Is Very Easy To Use</h3>
           <p style={{ textAlign: "center" }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -24,8 +24,8 @@ function Features() {
         </div>
       </div>
       <div className="container">
-        <div className="row">
-          <div className="col-md-6 col-xs-12 rounded-3  ">
+        <div className="row justify-content-center align-items-center">
+          <div className="col-md-6 col-11 rounded-3  ">
             <div
               style={{ backgroundColor: "rgb(223, 239, 250,0.3)" }}
               className="card p-4 shadow-sm border-0 p-3 mb-5 rounded"
@@ -46,7 +46,7 @@ function Features() {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-xs-12 rounded-3  ">
+          <div className="col-md-6 col-11 rounded-3  ">
             <div
               style={{ backgroundColor: "rgb(223, 239, 250,0.8)" }}
               className="card p-4 shadow-sm border-0 p-3 mb-5 rounded"
@@ -68,8 +68,8 @@ function Features() {
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="col-md-6 col-xs-12 rounded-3  ">
+        <div className="row justify-content-center align-items-center">
+          <div className="col-md-6 col-11 rounded-3  ">
             <div
               style={{ backgroundColor: "rgb(223, 239, 250,0.8)" }}
               className="card p-4 shadow-sm border-0 p-3 mb-5 rounded"
@@ -90,7 +90,7 @@ function Features() {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-xs-12 rounded-3  ">
+          <div className="col-md-6 col-11 rounded-3  ">
             <div
               style={{ backgroundColor: "rgb(223, 239, 250,0.3)" }}
               className="card p-4 shadow-sm border-0 p-3 mb-5 rounded"

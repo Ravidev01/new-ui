@@ -1,5 +1,5 @@
 import React from "react";
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 import "../navbar/navbar.css";
 
@@ -7,9 +7,9 @@ function Navbar() {
   return (
     <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/">
+        <Link className="navbar-brand" to="/">
           NEWUI
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -24,38 +24,38 @@ function Navbar() {
         <div className="collapse navbar-collapse " id="navbarText">
           <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/features">
+              <Link className="nav-link active " aria-current="page" to="/features">
                 Features
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/industries">
+              <a className="nav-link" href="#">
                 Industries
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/resources">
+              <a className="nav-link" href="#">
                 Resources
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/pricing">
+              <Link className="nav-link" to="/pricing">
                 Pricing
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/resources">
+              <Link className="nav-link" to="/about">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/resources">
+              <a className="nav-link" href="#">
                 Contact Us
               </a>
             </li>
           </ul>
           <div className="navbar-text login">
-              <a className="nav-link" href="/resources">
+              <a className="nav-link" href="/#">
               Log in
               </a>
           
