@@ -1,10 +1,20 @@
-.footer{
+.footer5{
+    /* margin: 0; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    color: white;
+    background-color:#265BCB;
+    /* padding: 0 70px 0 70px; */
+    overflow-x: hidden;
+}
+.footer2{
     margin: 0;
     display: flex;
     flex-direction: column;
     color: white;
     background-color:#265BCB;
     padding: 0 70px 0 70px;
+    overflow-x: hidden;
 
 }
 .fcard {
@@ -20,7 +30,7 @@
 .footertop{
     display: flex;
     justify-content: space-between;
-    padding: 30px 0 50px 0;
+    padding: 30px 0 0 0;
 }
 
 .footerdown{
@@ -29,7 +39,7 @@
     justify-content:space-between;
 
 }
-.footerdown ul{
+/* .footerdown ul{
 overflow-x:hidden;
 white-space:nowrap; 
 list-style-type: none;
@@ -37,8 +47,36 @@ display: flex;
 flex-direction: column;
 align-items: start;
 justify-content: center;
-}
-.footerdown li{
+} */
+/* .footerdown li{
     display:inline
 
-}
+} */
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  /* @include media-breakpoint-up(sm) {
+    .list-group {
+      display: block;
+      
+    }
+  } */
+  /* @media screen and (max-width: 485px) {
+   
+    .footer{
+        padding: 0;
+    }
+    .list-group-horizontal li {
+         
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        
+    }
+
+} */

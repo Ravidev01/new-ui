@@ -81,7 +81,7 @@ function Carousel() {
                     <div className="d-flex align-item-center justify-content-start">
                       <img
                         src={img9}
-                        class=" img-fluid rounded-2 w-25 m-0 me-3  "
+                        class=" img-fluid rounded-circle w-25 m-0 me-3  "
                         alt="..."
                       />
                       <div className="mt-2" >
@@ -105,7 +105,7 @@ function Carousel() {
                     <div className="d-flex align-item-center justify-content-start">
                       <img
                         src={img9}
-                        class=" img-fluid rounded-2 w-25 m-0 me-3  "
+                        class=" img-fluid rounded-circle w-25 m-0 me-3  "
                         alt="..."
                       />
                       <div className="mt-2" >
@@ -129,7 +129,7 @@ function Carousel() {
                     <div className="d-flex align-item-center justify-content-start">
                       <img
                         src={img9}
-                        class=" img-fluid rounded-2 w-25 m-0 me-3  "
+                        class=" img-fluid rounded-circle w-25 m-0 me-3  "
                         alt="..."
                       />
                       <div className="mt-2" >

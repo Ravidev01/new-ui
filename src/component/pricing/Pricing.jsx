@@ -91,7 +91,7 @@ function Pricing() {
                 </div>
               </div>
 
-              <button className=" btn btn-warning rounded-5 mx-3 text-white">
+              <button style={{backgroundColor:"#FF8C00"}} className=" btn  rounded-5 mx-3 text-white">
                 Choose Plan
               </button>
               <div className="card-body d-flex flex-column align-items-center justify-content-center">

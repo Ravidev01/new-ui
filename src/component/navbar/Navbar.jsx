@@ -1,15 +1,19 @@
 import React from "react";
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 import "../navbar/navbar.css";
 
 function Navbar() {
+  let activeStyle = {
+    // textDecoration: "underline",
+    color: '#265BCB'
+  };
   return (
     <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
+        <NavLink className="navbar-brand fw-bold" to="/">
           NEWUI
-        </Link>
+        </NavLink>
         <button
           className="navbar-toggler"
           type="button"
@@ -24,44 +28,50 @@ function Navbar() {
         <div className="collapse navbar-collapse " id="navbarText">
           <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active " aria-current="page" to="/features">
+              <NavLink className="nav-link" style={({ isActive }) =>
+              isActive ? activeStyle : undefined} aria-current="page" to="/features">
                 Features
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <NavLink className="nav-link disabled" style={({ isActive }) =>
+              isActive ? activeStyle : undefined} to="/resources">
                 Industries
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <NavLink className="nav-link disabled" style={({ isActive }) =>
+              isActive ? activeStyle : undefined} to="/resources">
                 Resources
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/pricing">
+              <NavLink className="nav-link" style={({ isActive }) =>
+              isActive ? activeStyle : undefined}  to="/pricing">
                 Pricing
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">
+              <NavLink className="nav-link" style={({ isActive }) =>
+              isActive ? activeStyle : undefined} to="/about">
                 About
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <NavLink className="nav-link disabled" style={({ isActive }) =>
+              isActive ? activeStyle : undefined} to="/resources">
                 Contact Us
-              </a>
+              </NavLink>
             </li>
           </ul>
-          <div className="navbar-text login">
-              <a className="nav-link" href="/#">
-              Log in
-              </a>
-          
-            <button className="btn" style={{borderRadius:"14px",fontSize:"14px",color:"white",backgroundColor:"orange"}}>Free Trial</button>
-      </div>
         </div>
+          {/* <div className=" d-none d-md-block row "> */}
+
+              <a className="nav-link mt-md-1 me-4 d-md-none d-md-block   md-row " to="/about">
+              Log In
+              </a>
+            <button className="btn d-md-none  d-md-block " style={{borderRadius:"14px",fontSize:"14px",color:"white",backgroundColor:"orange"}}>Free Trial</button>
+          {/* </div> */}
       </div>
     </nav>
   );

@@ -21,14 +21,14 @@ function Home() {
           <button className="btn btn-primary text-light rounded-4 me-3 mb-4 bg-none">
             Get Now
           </button>
-          <button style={{color:"blue"}} className="btn btn-light border-3 border-primary mb-4 rounded-4 bg-none">
+          <button style={{color:"#0B5ED7"}} className="btn btn-light border-3 border-primary mb-4 rounded-4 bg-none">
             Free Trial
           </button>        </div>
           </div>
-        <div className="col-xs-12">
+        <div className=" pt-3 col-xs-12">
           <img
             src={img}
-            className="rounded mx-auto d-block img1"
+            className="rounded-circle mx-auto d-block img1"
             alt="img"
           ></img>
         </div>

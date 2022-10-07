@@ -12,7 +12,7 @@ function About() {
           <button className="btn btn-primary text-light rounded-4 me-3 mb-4 bg-none">
             Get Now
           </button>
-          <button style={{colour:"blue"}} className="btn btn-light border border-primary mb-4 rounded-4 bg-none">
+          <button style={{color:"#0B5ED7"}} className="btn btn-light border border-primary mb-4 rounded-4 bg-none">
             Free Trial
           </button>
           </div>
@@ -42,7 +42,7 @@ function About() {
             and scrambled it to make a type specimen book.
           </p>
         </div>
-            <img style={{width:"300px",height:"300px"}} className="col-md-5 rounded float-end mx-auto d-none d-md-block " src={img} alt="img"></img>
+            <img style={{width:"300px",height:"250px"}} className="col-md-5 rounded-circle float-end my-5 d-none d-md-block " src={img} alt="img"></img>
       </div>
     </div>
   );

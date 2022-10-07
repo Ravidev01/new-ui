@@ -15,10 +15,10 @@ function Features() {
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
             commo.
           </p>
-          <button className="btn btn-warning text-light rounded-4 me-3 mb-4 bg-none">
+          <button style={{backgroundColor:"#FF8C00"}} className="btn  text-light rounded-4 me-3 mb-4 bg-none">
             Get Now
           </button>
-          <button className="btn btn-light text-dark border border-primary text-light mb-4 rounded-4 bg-none">
+          <button style={{color:"#0B5ED7"}} className="btn btn-light  border border-primary t mb-4 rounded-4 bg-none">
             Free Trial
           </button>
         </div>
